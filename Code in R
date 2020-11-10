@@ -50,4 +50,6 @@
 # Mak> e plot
 > ggplot(data=o, aes(x=Emotion, y=Level)) +
   geom_bar(stat="identity")
+  
+ ## TEST
  
