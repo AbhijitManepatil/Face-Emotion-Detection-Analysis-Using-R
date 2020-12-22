@@ -28,7 +28,7 @@
   content_type('application/json'), add_headers(.headers = c('Ocp-Apim-Subscription-Key' = emotionKEY)),
   body = mybody,
   encode = 'json'
-)
+)#face data to detect
  
 # Show request results (if Status=200, request is okay)
 > faceEMO
